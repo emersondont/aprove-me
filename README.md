@@ -1,5 +1,7 @@
 # Aprove-me
 
+Este projeto é um teste de seleção para novos desenvolvedores na Bankme! O repositório do teste pode ser encontrado [aqui](https://github.com/bankme-tech/aprove-me).
+
 Este arquivo README fornece instruções sobre como configurar e testar o projeto Aprove-me em seu ambiente local.
 
 ## Pré-requisitos(para o backend)
@@ -16,17 +18,17 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 git clone git@github.com:emersondont/aprove-me.git
 ```
 
-2.Navegue até a pasta api no diretório do projeto.
+2. Navegue até a pasta api no diretório do projeto.
 ```bash
 cd aprove-me/api
 ```
 
-3.Crie um arquivo .env no diretório do projeto. Você pode usar o arquivo .env.example como base.
+3. Crie um arquivo .env no diretório do projeto. Você pode usar o arquivo .env.example como base.
 ```bash
 cp .env.example .env
 ```
 
-4.Abra o arquivo .env e atualize as variáveis de ambiente conforme necessário.
+4. Abra o arquivo .env e atualize as variáveis de ambiente conforme necessário.
 
 ### Executando o Projeto
 1. Construa a imagem Docker e inicie os serviços usando docker-compose.
@@ -56,19 +58,19 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 cd aprove-me/spa
 ```
 
-2.Instale as dependências do projeto.
+2. Instale as dependências do projeto.
 ```bash
 npm install
 # ou
 yarn install
 ```
 
-3.Crie um arquivo de configuração no diretório do projeto. Você pode usar o arquivo .env.example como base.
+3. Crie um arquivo de configuração no diretório do projeto. Você pode usar o arquivo .env.example como base.
 ```bash
 cp .env.example .env.local
 ```
 
-4.Abra o arquivo .env.local e atualize as variáveis de ambiente conforme necessário.
+4. Abra o arquivo .env.local e atualize as variáveis de ambiente conforme necessário.
 
 ### Executando o Projeto
 1. Inicie o servidor de desenvolvimento.
